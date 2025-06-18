@@ -1,2 +1,5 @@
 # News-ML-Project
-This project showcases economic news data from the MLQ5 website, extracted using a custom Python script.
+This project showcases economic news data from the MLQ5 calendar on the website, extracted using a custom Python script.
+It was built using Python, using various webpage elements to find the table data and the forward button that loads the following weeks news data.
+I will only provide a few snippets here and there as I belive recreating such a code is relatively simple.
+Collecting news data via MT5 was already very tedious, one would have to build an entire framework for collecting, extracting, loading and reading the data.Building this pipeline in MQL5 was very time consuming,I had to create an include file for storing the classes and functions so it could work in the "past" as MQL5 natively does not have news data accessible in the tester, so as you can imagine I had to improvise.It was very slow during the tests but it was working properly, not the main focus for this repo as i will create another repo for it some time in the future, it is very technical(heavy C++).

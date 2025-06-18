@@ -11,5 +11,7 @@ Due to the simplicity and reproducibility of the web scraping process, only part
 Previously, I attempted to collect news data directly within MetaTrader 5 (MT5) using MQL5. However, this was extremely tedious due to the lack of accessible historical news data in the MT5 strategy tester. To overcome this limitation, I developed a custom MQL5 framework with include files for class/function storage to simulate historical news events during backtests. While it worked, it was very slow and technical (heavy C++), and not the main focus of this repository. I plan to release that framework in a separate, dedicated repo later.
 
 # 🧠 Machine Learning Focus
-This project’s main objective is to leverage the extracted news data for machine learning, specifically by applying Recurrent Neural Networks (RNNs) like LSTMs or GRUs, which are well-suited for time-series forecasting and sequential data. 
+This project’s main objective is to leverage the extracted news data for machine learning, specifically by applying Recurrent Neural Networks (RNNs) like LSTMs or GRUs, which are well-suited for time-series forecasting and sequential data.
+📄 [Read the Disclaimer](DISCLAIMER.md)
+
 

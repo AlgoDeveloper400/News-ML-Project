@@ -12,6 +12,6 @@ Previously, I attempted to collect news data directly within MetaTrader 5 (MT5) 
 
 # 🧠 Machine Learning Focus
 This project’s main objective is to leverage the extracted news data for machine learning, specifically by applying Recurrent Neural Networks (RNNs) like LSTMs or GRUs, which are well-suited for time-series forecasting and sequential data.
-📄 [Read the Disclaimer](DISCLAIMER.md)
+📄 [Read the Disclaimer](Disclaimer.md)
 
 

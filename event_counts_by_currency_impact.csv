@@ -1,0 +1,500 @@
+Currency,Event,Impact,Count
+EUR,S&P Global Manufacturing PMI,2,1326
+EUR,S&P Global Services PMI,2,1313
+EUR,CPI m/m,2,905
+EUR,HICP y/y,1,787
+EUR,HICP m/m,1,772
+EUR,CFTC EUR Non-Commercial Net Positions,2,770
+EUR,PPI y/y,1,671
+EUR,Retail Sales y/y,1,661
+EUR,Industrial Production y/y,1,658
+EUR,6-Month BTF Auction,1,593
+EUR,3-Month BTF Auction,1,592
+EUR,12-Month BTF Auction,1,586
+EUR,CPI y/y,2,585
+EUR,S&P Global Composite PMI,1,576
+EUR,CPI m/m,1,531
+EUR,Consumer Confidence Index,1,481
+EUR,PPI m/m,1,481
+EUR,Current Account,1,476
+EUR,CPI y/y,1,456
+EUR,Trade Balance,1,435
+EUR,GDP q/q,2,387
+EUR,Industrial Production m/m,2,368
+EUR,CPI y/y,3,365
+EUR,S&P Global Composite PMI,2,362
+EUR,Unemployment Rate,2,362
+EUR,Trade Balance,2,358
+EUR,GDP y/y,2,353
+EUR,ZEW Economic Sentiment Indicator,2,353
+EUR,New Car Registrations m/m,1,352
+EUR,New Car Registrations y/y,1,352
+EUR,Retail Sales m/m,1,334
+EUR,Unemployment Change,2,326
+EUR,Core CPI y/y,2,319
+EUR,ECB President Lagarde Speech,3,318
+EUR,HICP y/y,2,295
+EUR,Current Account n.s.a.,1,294
+EUR,Industrial Production m/m,1,291
+EUR,ECB Vice President de Guindos Speech,2,259
+EUR,Unemployment Rate,1,246
+EUR,HICP m/m,2,243
+EUR,Business Confidence,1,233
+EUR,Consumer Confidence,1,231
+EUR,ECB Executive Board Member Lane Speech,2,217
+EUR,Eurogroup Meeting,2,194
+EUR,GDP y/y,1,194
+EUR,CPI excl. Energy and Unprocessed Food y/y,1,193
+EUR,PPI m/m,2,185
+EUR,Ifo Business Climate,2,184
+EUR,Factory Orders m/m,2,182
+EUR,Factory Orders y/y,2,182
+EUR,GfK Consumer Climate,2,182
+EUR,Core CPI m/m,1,181
+EUR,Trade Balance n.s.a.,2,181
+EUR,Economic Sentiment Indicator,2,180
+EUR,Ifo Business Expectations,2,180
+EUR,S&P Global Construction PMI,1,180
+EUR,ECB M3 Money Supply y/y,1,179
+EUR,Construction Output y/y,1,178
+EUR,Construction Output m/m,1,177
+EUR,Consumer Spending m/m,2,177
+EUR,Retail Sales m/m,2,175
+EUR,10-Year Bond Auction,2,174
+EUR,Industrial Confidence Indicator,1,174
+EUR,Sentix Investor Confidence,1,173
+EUR,Wholesale Price Index m/m,1,171
+EUR,Wholesale Price Index y/y,1,169
+EUR,10-Year Obligacion Auction,1,164
+EUR,CPI excl. Energy and Unprocessed Food m/m,1,163
+EUR,Economic and Financial Affairs Council Meeting,2,161
+EUR,Ifo Current Business Situation,2,160
+EUR,ZEW Economic Situation,2,160
+EUR,ECB Executive Board Member Schnabel Speech,2,158
+EUR,5-Year Bonos Auction,1,157
+EUR,Bbk President Nagel Speech,2,157
+EUR,CPI FOI excl. Tobacco m/m,1,153
+EUR,CPI FOI excl. Tobacco y/y,1,153
+EUR,ECB President Draghi Speech,3,151
+EUR,Business Climate,1,150
+EUR,2-Year Note Auction,1,148
+EUR,ECB Interest Rate Decision,3,146
+EUR,Bbk Monthly Report,1,145
+EUR,Exports,1,145
+EUR,Imports,1,145
+EUR,12-Month BOT Auction,1,144
+EUR,12-Month Letras Auction,1,143
+EUR,6-Month Letras Auction,1,143
+EUR,CPI,1,143
+EUR,3-Month Letras Auction,1,142
+EUR,Government Budget Balance,1,142
+EUR,Services Sentiment Indicator,1,142
+EUR,5-Year Note Auction,1,141
+EUR,ECB Households Loans y/y,2,141
+EUR,Trade Balance EU,1,141
+EUR,Business Climate Indicator,1,140
+EUR,10-Year BTP Auction,1,139
+EUR,Exports m/m,1,139
+EUR,Import Price Index m/m,1,139
+EUR,Import Price Index y/y,1,139
+EUR,Imports m/m,1,139
+EUR,Trade Balance Non-EU,1,139
+EUR,ECB Marginal Lending Facility Rate Decision,2,138
+EUR,Industrial Sales  y/y,1,138
+EUR,Industrial Sales m/m,1,138
+EUR,10-Year OAT Auction,1,137
+EUR,5-Year BTP Auction,1,137
+EUR,9-Month Letras Auction,1,137
+EUR,Core CPI,2,137
+EUR,3-Year Bonos Auction,1,136
+EUR,6-Month BOT Auction,1,136
+EUR,Consumer Price Expectations,3,135
+EUR,Bbk Executive Board Member Balz Speech,2,134
+EUR,Jobseekers Total,2,130
+EUR,CPI excl. Tobacco m/m,1,129
+EUR,CPI excl. Tobacco y/y,1,129
+EUR,Industry Selling Price Expectations,1,127
+EUR,Unemployment,2,127
+EUR,Unemployment n.s.a.,1,127
+EUR,ECB Supervisory Board Chair Enria Speech,2,126
+EUR,3-Year BTP Auction,1,125
+EUR,GDP q/q,3,123
+EUR,5-Year OAT Auction,1,122
+EUR,ECB Executive Board Member Elderson Speech,2,122
+EUR,30-Year Bond Auction,1,116
+EUR,Bbk President Weidmann Speech,2,116
+EUR,ECB Non-Financial Corporations Loans y/y,1,115
+EUR,ECB Private Sector Loans y/y,1,115
+EUR,Bbk Executive Board Member Mauderer Speech,2,114
+EUR,ECB Non-monetary Policy Meeting,2,113
+EUR,Official Reserve Assets,1,113
+EUR,Trade Balance n.s.a.,1,113
+EUR,7-Year BTP Auction,1,110
+EUR,ECB Monetary Policy Press Conference,3,107
+EUR,3-Year OAT Auction,1,103
+EUR,GDP q/q,1,103
+EUR,EU Leaders Summit,3,99
+EUR,ECB Supervisory Board Member McCaul Speech,2,97
+EUR,Nonfarm Payrolls q/q,1,95
+EUR,ECB Deposit Facility Rate Decision,3,91
+EUR,Industrial New Orders m/m,1,91
+EUR,Industrial New Orders y/y,1,91
+EUR,ECB Executive Board Member Coeure Speech,2,89
+EUR,Export Price Index m/m,1,88
+EUR,Export Price Index y/y,1,88
+EUR,2-Year CTZ Auction,1,85
+EUR,ECB Executive Board Member Panetta Speech,2,85
+EUR,ECB Executive Board Member Praet Speech,2,85
+EUR,Employment Change q/q,1,84
+EUR,ECB Economic Bulletin,2,83
+EUR,Employment Change y/y,1,83
+EUR,ECB Monetary Policy Meeting Accounts,2,82
+EUR,Bbk Executive Board Member Wuermeling Speech,2,81
+EUR,ECB Executive Board Member Mersch Speech,2,76
+EUR,ECB Supervisory Board Member Fernandez-Bollo Speech,2,66
+EUR,ECB Executive Board Member Lautenschlaeger Speech,2,61
+EUR,Quarterly Unemployment Rate,1,61
+EUR,S&P Global Construction PMI,2,60
+EUR,ECB Monetary Policy Statement,2,59
+EUR,Bbk Vice President Buch Speech,2,53
+EUR,Government Deficit – GDP Ratio,1,51
+EUR,Labour Cost Index,1,46
+EUR,Employment Level,2,45
+EUR,Wage Costs y/y,2,44
+EUR,15-Year Obligacion Auction,2,42
+EUR,30-Year Obligacion Auction,1,39
+EUR,30-Year BTP Auction,1,37
+EUR,Bbk Executive Board Member Beermann Speech,2,34
+EUR,ECB Supervisory Board Member af Jochnick Speech,2,34
+EUR,Industrial Investment Forecast,1,32
+EUR,Labor Day,0,32
+EUR,ECB Vice President Constancio Speech,2,28
+EUR,Christmas Day,0,27
+EUR,New Year's Day,0,27
+EUR,ECB Bank Lending Survey,1,25
+EUR,ECB Targeted LTRO,2,22
+EUR,All Saints' Day,0,21
+EUR,Easter Monday,0,21
+EUR,Assumption of Mary,0,20
+EUR,ECB Financial Stability Review,2,20
+EUR,ECB Supervisory Board Member Tuominen Speech,2,20
+EUR,Ascension Day,0,16
+EUR,Whit Monday,0,16
+EUR,Saint Stephen's Day,0,14
+EUR,ECB Supervisory Board Member Hakkarainen Speech,2,13
+EUR,EU Economic Forecasts,3,13
+EUR,Epiphany,0,13
+EUR,Good Friday,0,13
+EUR,Immaculate Conception,0,12
+EUR,50-Year Obligacion Auction,1,10
+EUR,Victory Day,0,8
+EUR,Armistice Day,0,7
+EUR,Bastille Day,0,7
+EUR,Constitution Day,0,7
+EUR,Easter Sunday,0,7
+EUR,German Unity Day,0,7
+EUR,Liberation Day,0,7
+EUR,Republic Day,0,7
+EUR,Fiesta Nacional de España,0,6
+EUR,Maundy Thursday,0,6
+USD,CFTC Crude Oil Non-Commercial Net Positions,2,805
+USD,Initial Jobless Claims,3,795
+USD,Continuing Jobless Claims,2,778
+USD,EIA Crude Oil Stocks Change,3,771
+USD,CFTC Silver Non-Commercial Net Positions,1,767
+USD,CFTC Gold Non-Commercial Net Positions,2,765
+USD,EIA Natural Gas Storage Change,1,724
+USD,EIA Gasoline Stocks Change,1,668
+USD,3-Month Bill Auction,1,612
+USD,6-Month Bill Auction,1,611
+USD,4-Week Bill Auction,1,607
+USD,EIA Distillates Stocks Change,1,593
+USD,Initial Jobless Claims 4-Week Average,1,585
+USD,CFTC S&P 500 Non-Commercial Net Positions,2,533
+USD,CFTC Copper Non-Commercial Net Positions,1,531
+USD,Baker Hughes US Oil Rig Count,2,514
+USD,EIA Crude Oil Imports Change,1,485
+USD,EIA Cushing Crude Oil Stocks Change,2,485
+USD,EIA Distillate Fuel Production Change,1,485
+USD,EIA Heating Oil Stocks Change,1,485
+USD,EIA Gasoline Production Change,1,484
+USD,Baker Hughes US Total Rig Count,2,381
+USD,8-Week Bill Auction,1,346
+USD,Michigan Consumer Sentiment,2,345
+USD,CFTC Corn Non-Commercial Net Positions,1,335
+USD,CFTC Soybeans Non-Commercial Net Positions,1,335
+USD,CFTC Wheat Non-Commercial Net Positions,1,335
+USD,CFTC Natural Gas Non-Commercial Net Positions,1,331
+USD,Michigan Inflation Expectations,2,323
+USD,CFTC Aluminium Non-Commercial Net Positions,1,307
+USD,CFTC Nasdaq 100 Non-Commercial Net Positions,2,303
+USD,FOMC Member Williams Speech,2,300
+USD,EIA Refinery Crude Oil Daily Inputs Change,1,299
+USD,EIA Refinery Utilization Rate Change,1,299
+USD,Wholesale Inventories m/m,1,278
+USD,Michigan Current Conditions,1,272
+USD,S&P Global Manufacturing PMI,3,266
+USD,Michigan Consumer Expectations,2,265
+USD,Michigan 5-Year Inflation Expectations,2,251
+USD,S&P Global Services PMI,3,250
+USD,S&P Global Composite PMI,2,243
+USD,Retail Inventories excl. Autos m/m,2,199
+USD,Retail Inventories m/m,2,199
+USD,Philadelphia Fed Manufacturing Index,3,190
+USD,PPI m/m,3,189
+USD,PPI y/y,1,189
+USD,Core PPI m/m,2,188
+USD,Nonfarm Payrolls,3,188
+USD,Wholesale Sales m/m,1,188
+USD,Business Inventories m/m,2,187
+USD,Core CPI y/y,2,187
+USD,Import Price Index y/y,1,187
+USD,CB Consumer Confidence Index,3,186
+USD,Core PPI y/y,1,186
+USD,Core Retail Sales m/m,3,186
+USD,Existing Home Sales,3,186
+USD,Fed Industrial Production m/m,2,186
+USD,Retail Sales m/m,3,186
+USD,Average Hourly Earnings m/m,3,185
+USD,Average Hourly Earnings y/y,2,185
+USD,Average Weekly Hours,1,185
+USD,CB Leading Economic Index m/m,2,185
+USD,CPI m/m,3,185
+USD,CPI y/y,3,185
+USD,Core CPI m/m,3,185
+USD,Durable Goods Orders m/m,3,185
+USD,Fed Capacity Utilization Rate,1,185
+USD,Housing Starts,2,185
+USD,ISM Manufacturing PMI,3,185
+USD,ISM Non-Manufacturing PMI,3,185
+USD,Import Price Index m/m,2,185
+USD,New Home Sales,3,185
+USD,Retail Sales y/y,1,185
+USD,Trade Balance,2,185
+USD,Unemployment Rate,3,185
+USD,ADP Nonfarm Employment Change,3,184
+USD,Building Permits,2,184
+USD,Factory Orders m/m,2,184
+USD,Existing Home Sales m/m,2,183
+USD,Pending Home Sales m/m,2,183
+USD,Personal Income m/m,1,183
+USD,NAHB Housing Market Index,1,182
+USD,NY Fed Empire State Manufacturing Index,2,182
+USD,New Home Sales m/m,2,182
+USD,Core Durable Goods Orders m/m,2,181
+USD,Core PCE Price Index m/m,3,181
+USD,Fed Consumer Credit m/m,2,181
+USD,MNI Chicago Business Barometer,3,181
+USD,PCE Price Index m/m,2,181
+USD,Construction Spending m/m,2,180
+USD,GDP q/q,3,180
+USD,Core PCE Price Index y/y,3,179
+USD,Federal Budget Balance,2,179
+USD,HPI m/m,1,179
+USD,Challenger Job Cuts y/y,1,178
+USD,Government Payrolls,1,177
+USD,Richmond Fed Manufacturing Index,1,176
+USD,GDP Price Index q/q,1,175
+USD,Nondefense Capital Goods Shipments excl. Aircraft m/m,1,175
+USD,Private Nonfarm Payrolls,2,175
+USD,TIC Overall Net Capital Flow,1,175
+USD,U6 Unemployment Rate,2,175
+USD,S&P/CS HPI Composite-20 y/y,2,174
+USD,TIC Net Long-Term Transactions,2,174
+USD,Core PCE Price Index q/q,1,173
+USD,TIC Net Long-Term Transactions incl. Swaps,1,173
+USD,PCE Price Index y/y,2,168
+USD,ISM Manufacturing Prices Paid,3,163
+USD,52-Week Bill Auction,1,158
+USD,Export Price Index m/m,2,150
+USD,NFIB Small Business Optimism,1,150
+USD,Core CPI,1,146
+USD,Core CPI n.s.a.,1,146
+USD,CPI,3,145
+USD,CPI n.s.a. m/m,1,145
+USD,Core CPI n.s.a. m/m,3,145
+USD,Personal Spending m/m,2,145
+USD,CPI n.s.a.,1,144
+USD,Chicago Fed National Activity Index,1,144
+USD,Export Price Index y/y,1,144
+USD,10-Year Note Auction,3,143
+USD,2-Year Note Auction,2,142
+USD,30-Year Bond Auction,3,142
+USD,Dallas Fed Manufacturing Index,1,142
+USD,Pending Home Sales y/y,1,142
+USD,5-Year Note Auction,2,141
+USD,3-Year Note Auction,2,140
+USD,7-Year Note Auction,2,140
+USD,CB Employment Trends Index,1,138
+USD,Challenger Job Cuts,1,138
+USD,PCE Price Index q/q,1,138
+USD,Kansas City Fed Manufacturing Composite Index,1,137
+USD,Kansas City Fed Manufacturing Production,1,137
+USD,Philadelphia Fed Business Conditions,1,137
+USD,Philadelphia Fed Capex Index,1,137
+USD,Philadelphia Fed Employment,2,137
+USD,Philadelphia Fed New Orders,1,137
+USD,Philadelphia Fed Prices Paid,1,137
+USD,S&P/CS HPI Composite-20 n.s.a. m/m,2,137
+USD,S&P/CS HPI Composite-20 s.a. m/m,1,137
+USD,Cleveland Fed Median CPI m/m,1,136
+USD,HPI,1,136
+USD,HPI y/y,1,136
+USD,JOLTS Job Openings,3,136
+USD,Participation Rate,2,136
+USD,Real Earnings m/m,1,136
+USD,Durable Goods Orders excl. Defense m/m,1,135
+USD,Nondefense Capital Goods Orders excl. Aircraft m/m,1,135
+USD,Factory Orders excl. Transportation m/m,1,134
+USD,ISM Manufacturing Employment,2,134
+USD,ISM Manufacturing New Orders,1,134
+USD,ISM Non-Manufacturing Business Activity,1,134
+USD,ISM Non-Manufacturing Employment,2,134
+USD,ISM Non-Manufacturing New Orders,1,134
+USD,ISM Non-Manufacturing Prices Paid,3,134
+USD,Real PCE m/m,1,134
+USD,Real PCE q/q,2,132
+USD,Fed Manufacturing Production m/m,1,130
+USD,Retail Sales excl. Autos and Gas m/m,1,129
+USD,TIC Net Foreign Purchases of Domestic Treasury Bonds & Notes,1,129
+USD,Fed Interest Rate Decision,3,128
+USD,Dallas Fed Services Business Activity,1,127
+USD,Dallas Fed Services Revenues,1,127
+USD,Dallas Fed Trimmed Mean PCE Inflation Rate,1,127
+USD,Manufacturing Payrolls,1,127
+USD,Pending Home Sales Index,1,127
+USD,Richmond Fed Manufacturing Shipments,1,127
+USD,Richmond Fed Services Revenues,1,127
+USD,Retail Control m/m,2,126
+USD,FOMC Member Bullard Speech,2,122
+USD,FOMC Minutes,2,121
+USD,Fed Beige Book,2,120
+USD,Nonfarm Productivity q/q,2,120
+USD,Unit Labor Costs q/q,2,120
+USD,FOMC Member Evans Speech,2,116
+USD,Goods Trade Balance,2,114
+USD,Building Permits m/m,1,112
+USD,Housing Starts m/m,2,112
+USD,Fed Chair Powell Speech,3,100
+USD,Fed Governor Bowman Speech,2,100
+USD,ISM-NY Business Conditions Index,1,95
+USD,Exports,2,89
+USD,GDP Sales q/q,3,89
+USD,Import Price Index excl. Petroleum m/m,1,89
+USD,Imports,2,89
+USD,WASDE Report,2,88
+USD,Fed Industrial Production y/y,2,87
+USD,FOMC Statement,2,86
+USD,Fed Governor Brainard Speech,2,85
+USD,ISM-NY Current Business Conditions,1,78
+USD,FOMC Member Rosengren Speech,2,77
+USD,Corporate Profits q/q,1,76
+USD,10-Year TIPS Auction,2,68
+USD,FOMC Member Kaplan Speech,2,68
+USD,Fed Governor Waller Speech,2,68
+USD,Fed Governor Quarles Speech,2,67
+USD,FOMC Member Bostic Speech,2,66
+USD,FOMC Member Mester Speech,2,66
+USD,FOMC Press Conference,3,63
+USD,Fed Vice Chair for Supervision Barr Speech,2,63
+USD,20-Year Bond Auction,2,60
+USD,FOMC Member Kashkari Speech,2,60
+USD,Current Account,2,58
+USD,EIA Short-Term Energy Outlook,2,58
+USD,Employment Cost Index q/q,2,57
+USD,FOMC Member Harker Speech,2,57
+USD,Fed Governor Cook Speech,2,49
+USD,Fed Vice Chairman Clarida Speech,2,49
+USD,FOMC Economic Projections,2,46
+USD,Fed Chair Powell Testimony,3,45
+USD,Fed Chair Yellen Speech,3,45
+USD,FOMC Member George Speech,2,44
+USD,Employment Benefits q/q,1,43
+USD,Employment Wages q/q,1,43
+USD,Fed Senior Loan Officer Opinion Survey on Bank Lending Practices,1,42
+USD,Fed Labor Market Conditions Index,2,41
+USD,5-Year TIPS Auction,2,40
+USD,Fed Governor Powell Speech,2,36
+USD,Fed Vice Chairman Fischer Speech,2,36
+USD,Fed Governor Jefferson Speech,2,29
+USD,Jackson Hole Economic Symposium,2,27
+USD,30-Year TIPS Auction,2,26
+USD,Fed Governor Tarullo Speech,2,25
+USD,FOMC Member Daly Speech,2,24
+USD,FOMC Member Barkin Speech,2,21
+USD,Fed Chair Yellen Testimony,3,16
+USD,Fed Monetary Policy Report,2,12
+USD,Independence Day,0,11
+USD,New Year's Day,0,11
+USD,Fed Vice Chair Brainard Speech,2,10
+USD,Birthday of Martin Luther King,0,9
+USD,Memorial Day,0,9
+USD,Veterans Day,0,9
+USD,Washington's Birthday,0,9
+USD,Christmas Day,0,8
+USD,Columbus Day,0,8
+USD,Labor Day,0,8
+USD,Thanksgiving Day,0,8
+USD,Fed DFAST Results,2,7
+USD,Core PCE Price Index Annual,1,6
+USD,GDI q/q,1,6
+USD,PCE Price Index Annual,1,6
+USD,Fed CCAR Results,2,5
+USD,Juneteenth National Independence Day,0,4
+USD,FOMC Member Collins Speech,2,3
+USD,U.S. President State of the Union Address,2,3
+USD,Treasury Secretary Mnuchin Speech,2,1
+ZAR,CFTC ZAR Non-Commercial Net Positions,1,285
+ZAR,Building Permits m/m,1,161
+ZAR,Building Permits y/y,1,161
+ZAR,Trade Balance,1,146
+ZAR,PPI m/m,1,143
+ZAR,Retail Sales m/m,1,143
+ZAR,Retail Sales y/y,1,142
+ZAR,CPI y/y,1,141
+ZAR,CPI m/m,1,140
+ZAR,Gold Production y/y,1,134
+ZAR,Manufacturing Production m/m,1,134
+ZAR,Manufacturing Production y/y,1,134
+ZAR,Mining Production m/m,1,134
+ZAR,Mining Production y/y,1,134
+ZAR,Core CPI m/m,1,129
+ZAR,Core CPI y/y,1,129
+ZAR,PPI y/y,1,129
+ZAR,Gross International Reserves,1,128
+ZAR,Net International Reserves,1,128
+ZAR,S&P Global PMI,1,128
+ZAR,SARB M3 Money Supply y/y,1,128
+ZAR,SARB Private Sector Credit y/y,1,127
+ZAR,Total New Vehicle Sales,1,127
+ZAR,Total New Vehicle Sales y/y,1,127
+ZAR,Absa Manufacturing PMI,1,126
+ZAR,SARB Interest Rate Decision,2,69
+ZAR,SARB Prime Rate,1,68
+ZAR,Total New Vehicle Sales m/m,1,67
+ZAR,Unemployment Rate,1,49
+ZAR,Unemployment,1,46
+ZAR,Current Account,1,44
+ZAR,GDP q/q,2,44
+ZAR,Current Account - GDP Ratio,1,43
+ZAR,GDP y/y,1,42
+ZAR,SARB Quarterly Bulletin,2,41
+ZAR,RMB/BER Business Confidence Index,1,27
+ZAR,FNB/BER Consumer Confidence Index,1,25
+ZAR,SARB Monetary Policy Review,2,21
+ZAR,SARB Financial Stability Review,2,10
+ZAR,Consolidated Budget Balance,1,9
+ZAR,Consolidated Budget Balance - GDP Ratio,1,9
+ZAR,Workers’ Day,0,7
+ZAR,Youth Day,0,7
+ZAR,Day of Goodwill,0,6
+ZAR,Freedom Day,0,6
+ZAR,Heritage Day,0,6
+ZAR,Human Rights Day,0,6
+ZAR,National Women's Day,0,6
+ZAR,Christmas Day,0,5
+ZAR,Day of Reconciliation,0,5
+ZAR,Family Day,0,5
+ZAR,Good Friday,0,5
+ZAR,New Year's Day,0,5
+ZAR,Elections,0,1

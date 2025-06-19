@@ -14,4 +14,8 @@ Previously, I attempted to collect news data directly within MetaTrader 5 (MT5) 
 This project’s main objective is to leverage the extracted news data for machine learning, specifically by applying Recurrent Neural Networks (RNNs) like LSTMs or GRUs, which are well-suited for time-series forecasting and sequential data.
 📄 [Read the Disclaimer](Disclaimer.md)
 
+# 📆 Data Used
+The data collected spans from January 2007 through June 2025, covering approximately 18 years of news data. Although this sounds like a lot, many economic news events typically occur only once or twice per month, so the total number of events is relatively limited.
+
+For the sake of demonstration, this repository includes only this year's news data. If you need data covering a longer period, you'll need to build your own script to collect it. Fortunately, creating such a data collection script is not very difficult. 
 

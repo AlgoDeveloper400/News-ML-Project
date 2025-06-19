@@ -19,3 +19,8 @@ The data collected spans from January 2007 through June 2025, covering approxima
 
 For the sake of demonstration, this repository includes only this year's news data. If you need data covering a longer period, you'll need to build your own script to collect it. Fortunately, creating such a data collection script is not very difficult. 
 
+# 🗞️ Economic News Event Counts by Currency and Impact
+This CSV file contains counts of how many times each unique economic news event occurred for each currency, grouped by impact level, based on cleaned data from 2007 to 2025. The data supports filtering by impact type and includes clear header lines separating each currency’s events for easy analysis.
+
+Note: Having less data, especially for rare or missing events, can negatively affect the performance of Recurrent Neural Networks (RNNs) trained on this dataset. Sparse or incomplete event histories reduce the model’s ability to learn meaningful temporal patterns, which can lead to less accurate predictions.
+

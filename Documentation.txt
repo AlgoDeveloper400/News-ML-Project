@@ -1,0 +1,162 @@
+📘 MQL5 Economic Calendar Data Capture & Use in Backtesting
+-----------------------------------------------------------
+
+🧩 Overview
+
+In live and demo trading environments, MQL5 provides built-in support for accessing economic calendar data. However, this functionality does NOT work inside the Strategy Tester by default.
+
+To backtest strategies using news events, we simulate the calendar behavior inside the tester by first collecting live calendar data and then loading it manually during testing.
+
+This is achieved using two components:
+1. A main indicator script that collects and logs news data.
+2. A helper include file that defines all calendar entry structures, saving/loading logic, and serialization functions.
+
+🏗️ How it Works
+
+🔧 Step 1: Build the Helper Include File
+
+You first need to create a custom include file that defines two key classes:
+- CalendarEntry: Represents a single news event (actual, forecast, previous, importance, currency, etc.).
+- CalendarHistory: A list-like class to hold and manage multiple events.
+
+This include file mimics MQL5's built-in calendar, allowing you to save and load entries manually.
+
+✅ Key Functions
+
+class CalendarEntry {
+    datetime value_time;
+    string event_name;
+    string country_currency;
+    double value_actual_value;
+    double value_forecast_value;
+    double value_prev_value;
+    int event_importance;
+
+    string ToString() {
+        return TimeToString(value_time) + ": " + event_name;
+    }
+};
+
+class CalendarHistory : public CArrayObj {
+    bool LoadCalendarEntriesFromFile(string fileName);
+    bool SaveCalendarValuesToFile(string fileName);
+};
+
+When saving, the data is serialized manually using binary file functions. When loading, the same order of reading is preserved to reconstruct each event correctly.
+
+🎯 Step 2: Collecting Live Calendar Data (Indicator Mode)
+
+Attach the main indicator script to any live chart. This script does the following:
+
+- Loads recent calendar values using the built-in CalendarValueHistory() function.
+- Gathers the associated country and event metadata.
+- Filters events by:
+  - Currency
+  - Minimum impact level
+  - Whether the event occurred after the chart’s starting time
+- Saves all the filtered entries to a custom format using the include class (SaveCalendarValuesToFile()).
+- Optionally logs all events into a CSV or text log file for human review.
+
+🧠 Useful snippet:
+
+CalendarValueHistory(values, 0, TimeCurrent());
+
+for (int i = 0; i < values.Size(); i++) {
+    CalendarEventById(values[i].event_id, event);
+    CalendarCountryById(event.country_id, country);
+
+    // Add to CalendarEntry and save
+}
+
+🔁 Step 3: Using Data Inside the Tester
+
+Once the calendar events are saved, the same script (in tester mode) can now:
+- Load the previously saved events
+- Iterate through them during backtest ticks or timer events
+- Trigger logic before/after each event, such as pausing trading, closing orders, logging, etc.
+
+This effectively simulates real-time news awareness inside the tester.
+
+⏱ Timer-Driven Event Check (OnTimer):
+
+CalendarEntry* nextEvent = calendar.GetNextEvent(TimeCurrent());
+if (nextEvent != NULL && TimeCurrent() >= nextEvent.value_time) {
+    Print("Upcoming news: ", nextEvent.ToString());
+}
+
+🧪 Example Use Cases
+
+- Backtest avoidance strategy: Avoid trading during high-impact news.
+- Log news reaction: Save price action before and after major events.
+- Compare forecast vs. actual: Incorporate macroeconomic surprise effects.
+
+🔐 Notes & Tips
+
+- By default, the calendar functions (CalendarValueHistory, CalendarEventById, etc.) only work on live/demo charts, NOT in the tester.
+- Therefore, all data must first be collected live and then manually reused in backtesting.
+- You can automate this process using a dual-mode system:
+  - One mode to create/save the file
+  - One mode to load and use it
+
+Should you wish to recreate this data collection script, I will some of the helper functions here, the rest you will have to recreate:
+
+#include <files/filebin.mqh>
+  #include <arrays/arrayobj.mqh>
+
+class CCalendarEntry : public CObject {
+  public:
+   ulong country_id;
+      string country_name;
+        string country_currency_symbol;
+    ulong event_id;
+ ENUM_CALENDAR_EVENT_TYPE event_type;
+   string country_code;
+      string country_currency;
+ENUM_CALENDAR_EVENT_FREQUENCY event_frequency;
+      string country_url_name;
+ ENUM_CALENDAR_EVENT_SECTOR event_sector;
+ uint event_digits;
+    ENUM_CALENDAR_EVENT_IMPORTANCE event_importance;
+ ulong value_id;
+ ENUM_CALENDAR_EVENT_MULTIPLIER event_multiplier;
+      string event_source_url;
+ string event_name;
+ ENUM_CALENDAR_EVENT_UNIT event_unit;
+ENUM_CALENDAR_EVENT_TIMEMODE event_time_mode;
+    string event_event_code;
+
+     datetime value_time;
+   double value_actual_value;
+ double value_prev_value;
+    datetime value_period;
+   double value_forecast_value;
+  double value_revised_prev_value;
+int value_revision;
+ ENUM_CALENDAR_EVENT_IMPACT value_impact_type;
+
+    int Compare(const CObject *node, const int mode = 0) const {
+  CCalendarEntry* other = (CCalendarEntry*)node;
+    if (value_time == other.value_time) {
+      return event_importance - other.event_importance;
+        }
+    return (int)(value_time - other.value_time);
+      }
+
+    string ToString() {
+ string txt;
+    string importance = "NONE";
+   if (event_importance == CALENDAR_IMPORTANCE_HIGH) importance = "High";
+ else if (event_importance == CALENDAR_IMPORTANCE_MODERATE) importance = "Moderate";
+ else if (event_importance == CALENDAR_IMPORTANCE_LOW) importance = "Low";
+
+  StringConcatenate(txt, value_time, " > ", event_name, "(", country_code, "|", country_currency, ")", importance);
+    return txt;
+      }
+};
+
+
+If this version is too complicated, I will release another version for Python at a later stage in another repo so stay tuned!
+
+
+
+
